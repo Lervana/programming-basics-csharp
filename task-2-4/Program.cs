@@ -13,3 +13,5 @@ Console.WriteLine("Pole prostokąta o wymiarach x = " + x + " i y = " + y + " wy
 
 // Tekst wyświetlany w konsoli można zapisać z użyciem interpolacji:
 Console.WriteLine($"Pole prostokąta o wymiarach x = {x} i y = {y} wynosi: {z}");
+
+Console.ReadLine();

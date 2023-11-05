@@ -10,3 +10,5 @@ var newValue = isCelcius ? Math.Round((value * 9 / 5) + 32) : Math.Round((value 
 
 
 Console.Write($"{value}°{message1} = {newValue}°{message2}");
+
+Console.ReadLine();

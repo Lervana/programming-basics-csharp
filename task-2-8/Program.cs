@@ -14,3 +14,5 @@ double pole = a * b;
 // Wyświetl wynik z dokładnością do dwóch miejsc po przecinku
 // Inny przykład zaookrąglania wartości:
 Console.WriteLine($"Pole prostokąta o bokach a = {a:F2} i b = {b:F2} wynosi: {pole:F2}");
+
+Console.ReadLine();

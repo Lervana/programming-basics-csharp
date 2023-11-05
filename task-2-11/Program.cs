@@ -8,3 +8,5 @@ if (liczba % 2 == 0) {
 } else {
     Console.WriteLine($"Liczba {liczba} jest liczbą nieparzystą.");
 }
+
+Console.ReadLine();
