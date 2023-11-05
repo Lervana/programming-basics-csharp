@@ -13,3 +13,5 @@ else if (liczbaA < liczbaB) {
 else {
     Console.WriteLine($"Liczba A ({liczbaA}) jest równa liczbie B ({liczbaB}).");
 }
+
+Console.ReadLine();

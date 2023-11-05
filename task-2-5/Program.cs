@@ -18,3 +18,5 @@ Console.WriteLine(wartoscPLN + " PLN to " + wartoscEURO + " EURO");
 Console.WriteLine();
 Console.WriteLine(wartoscPLN + " PLN to " + Math.Round(wartoscUSD, 2) + " USD");
 Console.WriteLine(wartoscPLN + " PLN to " + Math.Round(wartoscEURO, 2) + " EURO");
+
+Console.ReadLine();

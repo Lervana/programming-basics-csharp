@@ -8,8 +8,6 @@
 //      (d) [(~a OR ~c) OR(~a OR b)] AND ~b
 //      (e) [(~a AND ~b) OR(a AND b)] OR (a AND ~c)
 
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
 bool a, b, c;
 
 // a) a OR b
@@ -396,3 +394,5 @@ Console.WriteLine($"| {Convert.ToInt32(a)} | {Convert.ToInt32(b)} | {Convert.ToI
     $"|  {Convert.ToInt32(notA)} |  {Convert.ToInt32(notB)} |  {Convert.ToInt32(notC)} " +
     $"|    {Convert.ToInt32(notAOrNotB)}    |   {Convert.ToInt32(aAndB)}   |           {Convert.ToInt32(notAOrNotBOrAAndB)}         " +
     $"|    {Convert.ToInt32(finalResult)}   |                       {Convert.ToInt32(finalResult)}          |");
+
+Console.ReadLine();

@@ -57,3 +57,5 @@ Console.WriteLine($"{liczbaZmiennoprzecinkowa2} + {znak} = {wynik12}");
 
 var wynik15 = znak + znak; // a + a = 194 // Dlaczego?
 Console.WriteLine($"{znak} + {znak} = {wynik15}");
+
+Console.ReadLine();

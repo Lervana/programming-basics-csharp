@@ -14,3 +14,5 @@ Console.WriteLine("Nowa wartość zmiennej całkowitoliczbowej: " + value);
 
 // Próba przypisania nowej wartości do stałej spowoduje błąd kompilacji:
 // value2 = 200;  // To spowoduje błąd kompilacji
+
+Console.ReadLine();

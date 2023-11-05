@@ -11,4 +11,4 @@
 //       - Int16 zajmuje 16 bitów (2 bajty), Int32 zajmuje 32 bity (4 bajty).
 //       - Int16 ma mniejszy zakres wartości w porównaniu do Int32.
 
-Console.WriteLine();
+Console.ReadLine();
